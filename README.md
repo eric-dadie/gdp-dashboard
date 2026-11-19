@@ -5,7 +5,7 @@
 ![Python](https://img.shields.io/badge/python-3.11%2B-3776AB?logo=python&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-app-FF4B4B?logo=streamlit&logoColor=white)
 ![Plotly](https://img.shields.io/badge/Plotly-charts-3F4F75?logo=plotly&logoColor=white)
-[![Tests](https://github.com/eric-dadie/gdp-dashboard/actions/workflows/tests.yml/badge.svg)](https://github.com/eric-dadie/gdp-dashboard/actions/workflows/tests.yml)
+[![Tests](https://github.com/eric-dadie/market-risk-lab/actions/workflows/tests.yml/badge.svg)](https://github.com/eric-dadie/market-risk-lab/actions/workflows/tests.yml)
 ![Licence](https://img.shields.io/badge/licence-Apache%202.0-blue)
 
 L'application reproduit le poste de travail d'un analyste risque de marché sur un portefeuille de négociation fictif de cinq desks (taux, crédit, actions, change, matières premières). Elle couvre la chaîne complète :
@@ -105,8 +105,8 @@ Le moteur de calcul (`risk/`) est indépendant de l'interface et réutilisable d
 ## Lancer le projet
 
 ```bash
-git clone https://github.com/eric-dadie/gdp-dashboard.git
-cd gdp-dashboard
+git clone https://github.com/eric-dadie/market-risk-lab.git
+cd market-risk-lab
 pip install -r requirements.txt
 streamlit run streamlit_app.py
 ```
